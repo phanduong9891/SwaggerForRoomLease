@@ -1,0 +1,19 @@
+[2022-08-18 14:14:51][main][INFO ] c.a.r.s.I.MonthlyPaymentServiceImplTest -Starting MonthlyPaymentServiceImplTest using Java 18 on AAVN-WS-048 with PID 9576 (started by ptduong in C:\Users\ptduong\Desktop\finalProject\roomLeaseManagement)
+[2022-08-18 14:14:51][main][INFO ] c.a.r.s.I.MonthlyPaymentServiceImplTest -No active profile set, falling back to 1 default profile: "default"
+[2022-08-18 14:14:51][background-preinit][INFO ] o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.3.Final
+[2022-08-18 14:14:53][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-08-18 14:14:54][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 445 ms. Found 11 JPA repository interfaces.
+[2022-08-18 14:14:55][main][INFO ] o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-08-18 14:14:55][main][INFO ] org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.9.Final
+[2022-08-18 14:14:55][main][INFO ] o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-08-18 14:14:55][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+[2022-08-18 14:14:56][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+[2022-08-18 14:14:56][main][INFO ] org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+[2022-08-18 14:14:58][main][INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-08-18 14:14:58][main][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-18 14:14:59][main][WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-18 14:15:00][main][INFO ] o.s.s.web.DefaultSecurityFilterChain -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@790ea58f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78a7fccd, org.springframework.security.web.context.SecurityContextPersistenceFilter@64a8851a, org.springframework.security.web.header.HeaderWriterFilter@73158d35, org.springframework.web.filter.CorsFilter@410e043b, org.springframework.security.web.authentication.logout.LogoutFilter@1ef7e4c7, com.axonactive.roomLeaseManagement.security.config.AuthTokenFilter@70ca8e72, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ce24203, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e30a8ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d3a238, org.springframework.security.web.session.SessionManagementFilter@37a36194, org.springframework.security.web.access.ExceptionTranslationFilter@40ecead5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bb644dc]
+[2022-08-18 14:15:02][main][INFO ] c.a.r.s.I.MonthlyPaymentServiceImplTest -Started MonthlyPaymentServiceImplTest in 11.615 seconds (JVM running for 13.297)
+[2022-08-18 14:15:02][SpringApplicationShutdownHook][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-18 14:15:02][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+[2022-08-18 14:15:02][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

@@ -1,0 +1,55 @@
+[2022-08-30 11:03:36][main][INFO ] c.a.r.s.I.MonthlyPaymentServiceImplTest -Starting MonthlyPaymentServiceImplTest using Java 18 on AAVN-WS-048 with PID 8380 (started by ptduong in C:\Users\ptduong\Desktop\finalProject\roomLeaseManagement)
+[2022-08-30 11:03:36][main][INFO ] c.a.r.s.I.MonthlyPaymentServiceImplTest -No active profile set, falling back to 1 default profile: "default"
+[2022-08-30 11:03:36][background-preinit][INFO ] o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.3.Final
+[2022-08-30 11:03:38][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-08-30 11:03:38][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 317 ms. Found 11 JPA repository interfaces.
+[2022-08-30 11:03:39][main][INFO ] o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-08-30 11:03:39][main][INFO ] org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.9.Final
+[2022-08-30 11:03:39][main][INFO ] o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-08-30 11:03:39][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+[2022-08-30 11:03:40][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+[2022-08-30 11:03:40][main][INFO ] org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+[2022-08-30 11:03:41][main][INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-08-30 11:03:41][main][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-30 11:03:42][main][WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-30 11:03:43][main][INFO ] o.s.s.web.DefaultSecurityFilterChain -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@61d4155b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48590849, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fb05c07, org.springframework.security.web.header.HeaderWriterFilter@c2191a8, org.springframework.web.filter.CorsFilter@6c38f4de, org.springframework.security.web.authentication.logout.LogoutFilter@7cf166db, com.axonactive.roomLeaseManagement.security.config.AuthTokenFilter@d164938, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d96a895, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@662b199, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@489c15e2, org.springframework.security.web.session.SessionManagementFilter@7137cd14, org.springframework.security.web.access.ExceptionTranslationFilter@44a7661d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c4e11d0]
+[2022-08-30 11:03:45][main][INFO ] c.a.r.s.I.MonthlyPaymentServiceImplTest -Started MonthlyPaymentServiceImplTest in 9.473 seconds (JVM running for 11.063)
+[2022-08-30 11:03:45][SpringApplicationShutdownHook][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-30 11:03:45][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+[2022-08-30 11:03:45][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+[2022-08-30 11:03:56][background-preinit][INFO ] o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.3.Final
+[2022-08-30 11:03:56][main][INFO ] c.a.r.RoomLeaseManagementApplication -Starting RoomLeaseManagementApplication using Java 18 on AAVN-WS-048 with PID 17820 (C:\Users\ptduong\Desktop\finalProject\roomLeaseManagement\target\classes started by ptduong in C:\Users\ptduong\Desktop\finalProject\roomLeaseManagement)
+[2022-08-30 11:03:56][main][INFO ] c.a.r.RoomLeaseManagementApplication -No active profile set, falling back to 1 default profile: "default"
+[2022-08-30 11:03:57][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-08-30 11:03:57][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 244 ms. Found 11 JPA repository interfaces.
+[2022-08-30 11:03:58][main][INFO ] o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8082 (http)
+[2022-08-30 11:03:58][main][INFO ] o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8082"]
+[2022-08-30 11:03:58][main][INFO ] o.a.catalina.core.StandardService -Starting service [Tomcat]
+[2022-08-30 11:03:58][main][INFO ] o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.63]
+[2022-08-30 11:03:58][main][INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+[2022-08-30 11:03:58][main][INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 2553 ms
+[2022-08-30 11:03:59][main][INFO ] o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-08-30 11:03:59][main][INFO ] org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.9.Final
+[2022-08-30 11:03:59][main][INFO ] o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-08-30 11:03:59][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+[2022-08-30 11:03:59][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+[2022-08-30 11:03:59][main][INFO ] org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+[2022-08-30 11:04:00][main][INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-08-30 11:04:00][main][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-30 11:04:01][main][WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-30 11:04:02][main][INFO ] o.s.s.web.DefaultSecurityFilterChain -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@648f48d3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30ce78e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@8cd2bb5, org.springframework.security.web.header.HeaderWriterFilter@6e70861, org.springframework.web.filter.CorsFilter@41041c31, org.springframework.security.web.authentication.logout.LogoutFilter@4fccdd1d, com.axonactive.roomLeaseManagement.security.config.AuthTokenFilter@2b9bbaa8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@427c2c96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57859e2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34a482d0, org.springframework.security.web.session.SessionManagementFilter@6f076c53, org.springframework.security.web.access.ExceptionTranslationFilter@1454339d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44c54463]
+[2022-08-30 11:04:04][main][INFO ] o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8082"]
+[2022-08-30 11:04:04][main][INFO ] o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8082 (http) with context path ''
+[2022-08-30 11:04:04][main][INFO ] c.a.r.RoomLeaseManagementApplication -Started RoomLeaseManagementApplication in 8.851 seconds (JVM running for 9.375)
+[2022-08-30 11:04:46][http-nio-8082-exec-2][INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-30 11:04:46][http-nio-8082-exec-2][INFO ] o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+[2022-08-30 11:04:46][http-nio-8082-exec-2][INFO ] o.s.web.servlet.DispatcherServlet -Completed initialization in 2 ms
+[2022-08-30 11:04:46][http-nio-8082-exec-2][ERROR] c.a.r.security.jwt.JwtUtils -JWT token is expired: JWT expired at 2022-08-11T23:45:49Z. Current time: 2022-08-30T11:04:46Z, a difference of 1595937552 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-08-30 11:04:46][http-nio-8082-exec-2][ERROR] c.a.r.s.config.AuthEntryPointJwt -Unauthorized error: Full authentication is required to access this resource
+[2022-08-30 11:05:03][http-nio-8082-exec-3][ERROR] c.a.r.security.jwt.JwtUtils -JWT token is expired: JWT expired at 2022-08-11T23:45:49Z. Current time: 2022-08-30T11:05:03Z, a difference of 1595954101 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-08-30 11:05:03][http-nio-8082-exec-3][INFO ] c.a.r.a.impl.AuthControllerImpl -Log info write here
+[2022-08-30 11:05:03][http-nio-8082-exec-3][WARN ] c.a.r.a.impl.AuthControllerImpl -log warning here
+[2022-08-30 11:05:03][http-nio-8082-exec-3][ERROR] c.a.r.a.impl.AuthControllerImpl -log error here
+[2022-08-30 11:06:16][SpringApplicationShutdownHook][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-30 11:06:16][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+[2022-08-30 11:06:16][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

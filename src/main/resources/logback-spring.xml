@@ -1,0 +1,52 @@
+<configuration>
+    <!--    usable properties-->
+    <property name="LOG_PATTERN" value="[%d{yyyy-MM-dd HH:mm:ss}][%thread][%-5level] %logger{36} -%msg%n"/>
+    <property name="APP_LOG_ROOT" value="./logs"/>
+    <property name="DATE" value="%d{yyyy-MM-dd}"/>
+
+    <!--    config where to put log-->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <!--        log message pattern-->
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="applicationErrorLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${APP_LOG_ROOT}/${DATE}/error-log.%i.log</fileNamePattern> <!--log file name -->
+            <!--total amount of time the logs are kept, after that the oldest log will be deleted, default value 0 = never delete -->
+            <maxHistory>0</maxHistory>
+            <!--total size of all log files, after that oldest file will be deleted, default value 0 = no cap-->
+            <totalSizeCap>0</totalSizeCap>
+            <!-- max size of a log, if log is bigger than max size, create new log file with %i+1 -->
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+    </appender>
+    <appender name="applicationNormalLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${APP_LOG_ROOT}/${DATE}/info-log.%i.log</fileNamePattern>
+            <maxHistory>0</maxHistory>
+            <totalSizeCap>0</totalSizeCap>
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+    </appender>
+    <root level="INFO"> <!-- set output location-->
+        <appender-ref ref="applicationErrorLog"/>
+        <appender-ref ref="applicationNormalLog"/>
+        <appender-ref ref="console"/>
+        <!--        <appender-ref ref="serverErrorLog"/>-->
+        <!--        <appender-ref ref="serverNormalLog"/>-->
+    </root>
+
+</configuration>
+

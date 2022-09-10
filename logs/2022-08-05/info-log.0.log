@@ -1,0 +1,96 @@
+[2022-08-05 15:32:39][main][ERROR] o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:22 - no applicable action for [encoder], current ElementPath  is [[configuration][appender][filter][encoder]]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[applicationErrorLog] - No encoder set for the appender named "applicationErrorLog".
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.axonactive.roomLeaseManagement.RoomLeaseManagementApplication.main(RoomLeaseManagementApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:22 - no applicable action for [encoder], current ElementPath  is [[configuration][appender][filter][encoder]]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[applicationErrorLog] - No encoder set for the appender named "applicationErrorLog".
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 18 common frames omitted
+[2022-08-05 15:36:29][main][ERROR] o.s.boot.SpringApplication -Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:22 - no applicable action for [encoder], current ElementPath  is [[configuration][appender][filter][encoder]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][filter][encoder][pattern]]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[applicationErrorLog] - No encoder set for the appender named "applicationErrorLog".
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:328)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:282)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:240)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.axonactive.roomLeaseManagement.RoomLeaseManagementApplication.main(RoomLeaseManagementApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:22 - no applicable action for [encoder], current ElementPath  is [[configuration][appender][filter][encoder]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@19:26 - no applicable action for [pattern], current ElementPath  is [[configuration][appender][filter][encoder][pattern]]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[applicationErrorLog] - No encoder set for the appender named "applicationErrorLog".
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	... 18 common frames omitted
+[2022-08-05 15:38:07][background-preinit][INFO ] o.h.validator.internal.util.Version -HV000001: Hibernate Validator 6.2.3.Final
+[2022-08-05 15:38:07][main][INFO ] c.a.r.RoomLeaseManagementApplication -Starting RoomLeaseManagementApplication using Java 18 on AAVN-WS-048 with PID 1060 (C:\Users\ptduong\Desktop\finalProject\roomLeaseManagement\target\classes started by ptduong in C:\Users\ptduong\Desktop\finalProject\roomLeaseManagement)
+[2022-08-05 15:38:07][main][INFO ] c.a.r.RoomLeaseManagementApplication -No active profile set, falling back to 1 default profile: "default"
+[2022-08-05 15:38:08][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-08-05 15:38:09][main][INFO ] o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 291 ms. Found 11 JPA repository interfaces.
+[2022-08-05 15:38:10][main][INFO ] o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+[2022-08-05 15:38:10][main][INFO ] o.a.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8080"]
+[2022-08-05 15:38:10][main][INFO ] o.a.catalina.core.StandardService -Starting service [Tomcat]
+[2022-08-05 15:38:10][main][INFO ] o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.63]
+[2022-08-05 15:38:10][main][INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+[2022-08-05 15:38:10][main][INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 3232 ms
+[2022-08-05 15:38:10][main][INFO ] o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+[2022-08-05 15:38:10][main][INFO ] org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.9.Final
+[2022-08-05 15:38:11][main][INFO ] o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2022-08-05 15:38:11][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+[2022-08-05 15:38:11][main][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+[2022-08-05 15:38:11][main][INFO ] org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+[2022-08-05 15:38:13][main][INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2022-08-05 15:38:13][main][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-05 15:38:13][main][WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-05 15:38:15][main][INFO ] o.s.s.web.DefaultSecurityFilterChain -Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2027d56f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44c54463, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d73d3d1, org.springframework.security.web.header.HeaderWriterFilter@7bc3c59f, org.springframework.web.filter.CorsFilter@64b20d9c, org.springframework.security.web.authentication.logout.LogoutFilter@6600d07d, com.axonactive.roomLeaseManagement.security.config.AuthTokenFilter@7e58b0f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f076c53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8cd2bb5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fc3f1a7, org.springframework.security.web.session.SessionManagementFilter@2bf2523f, org.springframework.security.web.access.ExceptionTranslationFilter@6e3acd7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c2e73ce]
+[2022-08-05 15:38:16][main][INFO ] o.a.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8080"]
+[2022-08-05 15:38:16][main][INFO ] o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+[2022-08-05 15:38:16][main][INFO ] c.a.r.RoomLeaseManagementApplication -Started RoomLeaseManagementApplication in 9.967 seconds (JVM running for 10.595)
+[2022-08-05 16:07:24][http-nio-8080-exec-1][INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2022-08-05 16:07:24][http-nio-8080-exec-1][INFO ] o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+[2022-08-05 16:07:24][http-nio-8080-exec-1][INFO ] o.s.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+[2022-08-05 16:08:13][SpringApplicationShutdownHook][INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-08-05 16:08:13][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+[2022-08-05 16:08:13][SpringApplicationShutdownHook][INFO ] com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.

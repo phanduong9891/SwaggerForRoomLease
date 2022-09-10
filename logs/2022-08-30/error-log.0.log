@@ -1,0 +1,7 @@
+[2022-08-30 11:03:42][main][WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-30 11:04:01][main][WARN ] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2022-08-30 11:04:46][http-nio-8082-exec-2][ERROR] c.a.r.security.jwt.JwtUtils -JWT token is expired: JWT expired at 2022-08-11T23:45:49Z. Current time: 2022-08-30T11:04:46Z, a difference of 1595937552 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-08-30 11:04:46][http-nio-8082-exec-2][ERROR] c.a.r.s.config.AuthEntryPointJwt -Unauthorized error: Full authentication is required to access this resource
+[2022-08-30 11:05:03][http-nio-8082-exec-3][ERROR] c.a.r.security.jwt.JwtUtils -JWT token is expired: JWT expired at 2022-08-11T23:45:49Z. Current time: 2022-08-30T11:05:03Z, a difference of 1595954101 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2022-08-30 11:05:03][http-nio-8082-exec-3][WARN ] c.a.r.a.impl.AuthControllerImpl -log warning here
+[2022-08-30 11:05:03][http-nio-8082-exec-3][ERROR] c.a.r.a.impl.AuthControllerImpl -log error here
